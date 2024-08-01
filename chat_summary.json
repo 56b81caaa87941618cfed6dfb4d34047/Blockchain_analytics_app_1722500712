@@ -48,5 +48,11 @@
         "content": "add a blue button that says Hey",
         "timestamp": "01082024082809",
         "message_id": "guest01082024082809"
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Great idea! Adding a blue button that says Hey.",
+        "timestamp": "01082024082811",
+        "message_id": "guest01082024082809"
     }
 ]
