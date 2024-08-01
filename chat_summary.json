@@ -54,5 +54,11 @@
         "content": "Great idea! Adding a blue button that says Hey.",
         "timestamp": "01082024082811",
         "message_id": "guest01082024082809"
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Add a hover effect to the 'Hey' button for better user interaction\", \"checked\": true}, {\"feature\": \"Incorporate a loading animation on the 'Hey' button for feedback on blockchain data retrieval\", \"checked\": false}, {\"feature\": \"Implement a tooltip on the 'Hey' button to provide users with information on what it does\", \"checked\": true}, {\"feature\": \"Add a button next to 'Hey' labeled 'More Info' that leads to a detailed explanation of blockchain\", \"checked\": false}, {\"feature\": \"Enable the 'Hey' button to change color based on blockchain network status (e.g., green for active, red for issues)\", \"checked\": true}, {\"feature\": \"Incorporate accessibility features for the 'Hey' button, such as keyboard navigation and screen reader support\", \"checked\": false}], \"input_token_count\": 215, \"output_token_count\": 189, \"time_taken\": \"0:00:09.421531\"}",
+        "timestamp": "01082024082820",
+        "message_id": "guest01082024082809"
     }
 ]
