@@ -28,6 +28,7 @@ Vue.component("simple_header_component_1722500716", {
                         <li id="nav-item-2"><a href="#" class="block py-2 pl-3 pr-4 text-white border-b border-purple-400 hover:bg-purple-600 lg:hover:bg-transparent lg:border-0 lg:hover:text-pink-200 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 transition-colors duration-300">On-Chain Data Analytics</a></li>
                         <li id="nav-item-3"><a href="#" class="block py-2 pl-3 pr-4 text-white border-b border-purple-400 hover:bg-purple-600 lg:hover:bg-transparent lg:border-0 lg:hover:text-pink-200 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 transition-colors duration-300">Customizable Dashboards</a></li>
                     </ul>
+                    <button id="submit-button" class="ml-4 px-4 py-2 bg-pink-500 text-white rounded-lg shadow-md hover:bg-pink-600 transition-colors duration-300">Submit</button>
                 </div>
             </div>
         </nav>
