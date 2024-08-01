@@ -36,5 +36,11 @@
         "content": "Got it, adding a yellow \"Hello world\" button.",
         "timestamp": "01082024082728",
         "message_id": "guest01082024082727"
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Do you have a specific shade of yellow in mind for the 'Hello World' button, or would you like us to select a shade that best fits the app's design?\", \"option1\": \"Yes, I have a specific shade in mind. (Please provide the color code.)\", \"option2\": \"No, please select a shade that you think best fits.\"}, {\"question 2\": \"Where would you like this 'Hello World' button to be positioned in the app's interface?\", \"option1\": \"Please place it in a specific location. (Please specify the location.)\", \"option2\": \"Decide the placement based on the app's design principles.\"}], \"input_token_count\": 263, \"output_token_count\": 151, \"time_taken\": \"0:00:06.217330\"}",
+        "timestamp": "01082024082735",
+        "message_id": "guest01082024082727"
     }
 ]
