@@ -30,7 +30,8 @@ Vue.component("simple_header_component_1722500716", {
                     </ul>
                     <button id="submit-button" class="ml-4 px-4 py-2 bg-pink-500 text-white rounded-lg shadow-md hover:bg-pink-600 transition-colors duration-300">Submit</button>
                     <button class="ml-4 px-4 py-2 bg-yellow-500 text-yellow-900 rounded-lg shadow-md hover:bg-yellow-600 transition-colors duration-300">Hello world</button>
-                </div>
+                    <button class="ml-4 px-4 py-2 bg-yellow-500 text-yellow-900 rounded-lg shadow-md hover:bg-yellow-600 transition-colors duration-300">Hello world</button>
+                    <button class="ml-4 px-4 py-2 bg-blue-500 text-white rounded-lg shadow-md hover:bg-blue-600 transition-colors duration-300">Hey</button>
             </div>
         </nav>
     </header>`,
