@@ -30,5 +30,11 @@
         "content": "add a button that says Hello world in yellow",
         "timestamp": "01082024082727",
         "message_id": "guest01082024082727"
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Got it, adding a yellow \"Hello world\" button.",
+        "timestamp": "01082024082728",
+        "message_id": "guest01082024082727"
     }
 ]
