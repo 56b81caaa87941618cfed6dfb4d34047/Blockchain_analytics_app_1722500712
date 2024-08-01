@@ -4,11 +4,11 @@
 Vue.component("simple_header_component_1722500716", {
     template: `
     <header id="header-section" class="w-full">
-        <nav id="nav-bar" class="bg-gradient-to-r from-pink-500 to-purple-600 backdrop-filter backdrop-blur-lg bg-opacity-30 border border-purple-300 border-opacity-30 shadow-lg py-4 dark:bg-gray-900">
+        <nav id="nav-bar" class="bg-gradient-to-r from-pink-500 via-purple-600 to-indigo-700 backdrop-filter backdrop-blur-lg bg-opacity-30 border border-purple-300 border-opacity-30 shadow-lg py-4 dark:bg-gray-900">
             <div id="nav-container" class="flex flex-wrap items-center justify-between max-w-screen-xl px-6 mx-auto">
                 <a id="logo-link" href="#" class="flex items-center">
-                    <img id="logo-image" src="./images/logo.svg" class="h-8 mr-3 sm:h-10" alt="Landwind Logo" />
-                    <span id="app-name" class="self-center text-2xl font-bold text-white whitespace-nowrap dark:text-white">BlockScan - Blockchain Analytics Platform</span>
+                    <img id="logo-image" src="./images/logo.svg" class="h-10 mr-3 sm:h-12 filter drop-shadow-lg" alt="Landwind Logo" />
+                    <span id="app-name" class="self-center text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-300 to-purple-300 whitespace-nowrap dark:text-white">BlockScan - Blockchain Analytics Platform</span>
                 </a>
                 <div id="menu-toggle-button" class="flex items-center lg:order-2">
                     <button id="collapse-button" data-collapse-toggle="mobile-menu-2" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-white rounded-lg lg:hidden hover:bg-purple-400 focus:outline-none focus:ring-2 focus:ring-white dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false">
@@ -23,15 +23,16 @@ Vue.component("simple_header_component_1722500716", {
                 </div>
                 <div id="mobile-menu-2" class="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1">
                     <ul id="nav-list" class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
-                        <li id="nav-item-home"><a href="#" class="block py-2 pl-3 pr-4 text-white bg-purple-700 rounded lg:bg-transparent lg:text-white lg:p-0 dark:text-white hover:text-pink-200 transition-colors duration-300" aria-current="page">Real-time Blockchain Monitoring</a></li>
+                        <li id="nav-item-home"><a href="#" class="block py-2 pl-3 pr-4 text-white bg-purple-700 rounded-lg lg:bg-transparent lg:text-pink-300 lg:p-0 dark:text-white hover:text-pink-200 transition-colors duration-300" aria-current="page">Real-time Blockchain Monitoring</a></li>
                         <li id="nav-item-1"><a href="#" class="block py-2 pl-3 pr-4 text-white border-b border-purple-400 hover:bg-purple-600 lg:hover:bg-transparent lg:border-0 lg:hover:text-pink-200 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 transition-colors duration-300">Smart Contract Auditing</a></li>
                         <li id="nav-item-2"><a href="#" class="block py-2 pl-3 pr-4 text-white border-b border-purple-400 hover:bg-purple-600 lg:hover:bg-transparent lg:border-0 lg:hover:text-pink-200 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 transition-colors duration-300">On-Chain Data Analytics</a></li>
                         <li id="nav-item-3"><a href="#" class="block py-2 pl-3 pr-4 text-white border-b border-purple-400 hover:bg-purple-600 lg:hover:bg-transparent lg:border-0 lg:hover:text-pink-200 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 transition-colors duration-300">Customizable Dashboards</a></li>
                     </ul>
-                    <button id="submit-button" class="ml-4 px-4 py-2 bg-pink-500 text-white rounded-lg shadow-md hover:bg-pink-600 transition-colors duration-300">Submit</button>
-                    <button class="ml-4 px-4 py-2 bg-yellow-500 text-yellow-900 rounded-lg shadow-md hover:bg-yellow-600 transition-colors duration-300">Hello world</button>
-                    <button class="ml-4 px-4 py-2 bg-yellow-500 text-yellow-900 rounded-lg shadow-md hover:bg-yellow-600 transition-colors duration-300">Hello world</button>
-                    <button class="ml-4 px-4 py-2 bg-blue-500 text-white rounded-lg shadow-md hover:bg-blue-600 transition-colors duration-300">Hey</button>
+                    <button id="submit-button" class="ml-4 px-6 py-3 bg-gradient-to-r from-pink-500 to-purple-600 text-white rounded-lg shadow-md hover:from-pink-600 hover:to-purple-700 transition-colors duration-300 font-semibold">Submit</button>
+                    <button class="ml-4 px-6 py-3 bg-gradient-to-r from-yellow-400 to-yellow-600 text-yellow-900 rounded-lg shadow-md hover:from-yellow-500 hover:to-yellow-700 transition-colors duration-300 font-semibold">Hello world</button>
+                    <button class="ml-4 px-6 py-3 bg-gradient-to-r from-yellow-400 to-yellow-600 text-yellow-900 rounded-lg shadow-md hover:from-yellow-500 hover:to-yellow-700 transition-colors duration-300 font-semibold">Hello world</button>
+                    <button class="ml-4 px-6 py-3 bg-gradient-to-r from-blue-400 to-blue-600 text-white rounded-lg shadow-md hover:from-blue-500 hover:to-blue-700 transition-colors duration-300 font-semibold">Hey</button>
+                </div>
             </div>
         </nav>
     </header>`,
